@@ -64,6 +64,9 @@ Key preprocessing steps in the notebook:
 | Bagging        | 0.8804   | 0.8774    | 0.9118 | 0.8942   | 0.9314 |
 | Weighted Voting| 0.8859   | 0.8857    | 0.9118 | 0.8986   | 0.9264 |
 
+  ![Random Forest ROC](images/random_forest_roc.PNG)
+
+
 **Takeaway:**  
 - **Best accuracy:** Weighted Voting (**0.8859**)  
 - **Best ROC-AUC:** Bagging (**0.9314**)  
@@ -74,6 +77,7 @@ Key preprocessing steps in the notebook:
 - Simpler models (like Logistic Regression) performed surprisingly well, suggesting the dataset contains strong signal and fairly learnable boundaries after preprocessing.
 - Ensembles improved robustness and overall performance, especially when balancing precision/recall tradeoffs.
 - ROC-AUC comparisons suggest Bagging and Random Forest are strong choices when you care about ranking/risk scoring, not just hard 0/1 predictions.
+  ![Feature Importance Graph](images/feature_immportance.PNG)
   
 ## Conclusion
 This project demonstrates an end-to-end classification workflow:
