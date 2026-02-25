@@ -65,6 +65,9 @@ Key preprocessing steps in the notebook:
 | Weighted Voting| 0.8859   | 0.8857    | 0.9118 | 0.8986   | 0.9264 |
 
   ![Random Forest ROC](images/random_forest_roc.PNG)
+  ![Bagging ROC](images/bagging_roc.PNG)
+  ![Weighting Voting ROC](images/wvc_roc.PNG)
+
 
 
 **Takeaway:**  
@@ -78,7 +81,7 @@ Key preprocessing steps in the notebook:
 - Ensembles improved robustness and overall performance, especially when balancing precision/recall tradeoffs.
 - ROC-AUC comparisons suggest Bagging and Random Forest are strong choices when you care about ranking/risk scoring, not just hard 0/1 predictions.
 
-  ![Feature Importance Graph](images/feature_immportance.PNG)
+  ![Feature Importance Graph](images/feature_importance.PNG)
   
 ## Conclusion
 This project demonstrates an end-to-end classification workflow:
