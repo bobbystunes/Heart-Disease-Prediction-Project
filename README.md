@@ -3,7 +3,9 @@
 **Published MAY 2024**
 
 **Project Type:** Machine Learning / Data engineering 
+
 **Tools Used:** Python (Pandas, numpy, matplot, sklearn), Model training and evaluation, Model Improvements, Model Comparison and Interpretation
+
 **Dataset Size:** 918 Patients  
 
 ## Introduction
