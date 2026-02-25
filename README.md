@@ -2,6 +2,10 @@
 **Project by Brian Benitez **  
 **Published MAY 2024**
 
+**Project Type:** Machine Learning / Data engineering 
+**Tools Used:** Python (Pandas, numpy, matplot, sklearn), Model training and evaluation, Model Improvements, Model Comparison and Interpretation
+**Dataset Size:** 918 Patients  
+
 ## Introduction
 Heart disease is a major health risk, and early identification can help support preventative care.  
 This project builds and compares multiple machine learning classifiers to predict whether a patient is likely to have heart disease (`HeartDisease = 1`) based on clinical and exercise-related features.
